@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* PAGE LAYOUT */
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #F0F0DB;
+  color: #30364F;
+}
+
+/* HEADER */
+.header {
+  background: #30364F;
+  padding: 42px 20px;
+}
+
+.header-inner {
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+}
+
+.header h2 {
+  color: #F0F0DB;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.header p {
+  color: #ACBAC4;
+  margin-top: 6px;
+  font-size: 14px;
+}
+
+/* MAIN */
+.main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  padding: 40px 15px;
+}
+
+.container {
+  width: 100%;
+  max-width: 420px;
+  background: #E1D9BC;
+  padding: 30px;
+  border-radius: 18px;
+  box-shadow: 0 20px 40px rgba(48,54,79,0.2);
+}
+
+/* CONTENT */
+h1 {
+  text-align: center;
+  font-weight: 700;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 22px;
+}
+
+/* FORM */
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.input-group label {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.input-group input,
+.input-group select {
+  height: 44px;
+  padding: 0 12px;
+  border-radius: 8px;
+  border: none;
+  font-size: 14px;
+  background: #F0F0DB;
+  color: #30364F;
+  outline: none;
+}
+
+.input-group input:focus,
+.input-group select:focus {
+  outline: 2px solid #ACBAC4;
+}
+
+/* BUTTON */
+button {
+  margin-top: 16px;
+  padding: 14px;
+  border-radius: 12px;
+  background: #ACBAC4;
+  border: none;
+  color: #30364F;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: #30364F;
+  color: #F0F0DB;
+}
+
+/* RESULT */
+.result {
+  margin-top: 24px;
+  padding: 18px;
+  background: #F0F0DB;
+  border-radius: 12px;
+  display: none;
+}
+
+.result ul {
+  margin-top: 10px;
+  padding-left: 18px;
+}
+
+.result li {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+/* FOOTER */
+.footer {
+  background: #30364F;
+  color: #F0F0DB;
+  text-align: center;
+  padding: 16px;
+  font-size: 13px;
+}
+
+/* MOBILE */
+@media (max-width: 480px) {
+  .header {
+    padding: 32px 15px;
+  }
+
+  .header h2 {
+    font-size: 24px;
+  }
+
+  .container {
+    padding: 24px;
+  }
+
+  button {
+    padding: 12px;
+  }
+}

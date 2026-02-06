@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Diet Planner</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header-inner">
+      <h2>Smart Diet Planner</h2>
+      <p>Indian diet • Simple • Scientific</p>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main class="main">
+    <div class="container">
+
+      <h1>Personal Diet Plan</h1>
+      <p class="subtitle">Based on your age, body weight & goal</p>
+
+      <div class="card">
+        <div class="input-group">
+          <label for="age">Age (years)</label>
+          <input type="number" id="age" placeholder="Enter your age">
+        </div>
+
+        <div class="input-group">
+          <label for="weight">Body Weight (kg)</label>
+          <input type="number" id="weight" placeholder="Enter your weight">
+        </div>
+
+        <div class="input-group">
+          <label for="goal">Goal</label>
+          <select id="goal">
+            <option value="loss">Weight Loss</option>
+            <option value="maintain">Maintain Weight</option>
+            <option value="gain">Weight Gain</option>
+          </select>
+        </div>
+
+        <button onclick="calculateDiet()">Generate Diet Plan</button>
+      </div>
+
+      <div class="result" id="result"></div>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2026 Smart Diet Planner | Designed for Indian lifestyle</p>
+  </footer>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+
+</body>
+</html>
+
