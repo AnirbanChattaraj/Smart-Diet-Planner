@@ -75,5 +75,5 @@ If you found this project helpful:
 - 🛠️ Improve it
 
 Happy coding! 🚀
-Preview:
-https://github.com/AnirbanChattaraj/Smart-Diet-Planner/
+
+Preview:https://anirbanchattaraj.github.io/Smart-Diet-Planner/
