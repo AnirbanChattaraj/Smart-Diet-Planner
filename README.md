@@ -29,7 +29,7 @@ Built using **HTML, CSS, and JavaScript**, with a premium UI and real-world logi
 
 ---
 
-## 🎨 Color Palette Used
+## 🎨 Color Palette Used:
 
 | Purpose | Color |
 |------|------|
