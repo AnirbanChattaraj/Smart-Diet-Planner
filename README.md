@@ -24,7 +24,7 @@ Built using **HTML, CSS, and JavaScript**, with a premium UI and real-world logi
 
 - **HTML5** – Semantic structure
 - **CSS3** – Flexbox layout, responsive design
-- **JavaScript (Vanilla)** – Core logic & DOM manipulation
+- **JavaScript** – Core logic & DOM manipulation
 - **Google Fonts** – Poppins
 
 ---
