@@ -42,7 +42,7 @@ Built using **HTML, CSS, and JavaScript**, with a premium UI and real-world logi
 
 ## 🧠 How It Works
 
-1. User enters:
+1. User enters:-
    - Age
    - Body Weight
    - Fitness Goal
