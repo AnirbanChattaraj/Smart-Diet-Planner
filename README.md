@@ -5,7 +5,7 @@ Built using **HTML, CSS, and JavaScript**, with a premium UI and real-world logi
 
 ---
 
-## 🚀 Features
+## 🚀 Features:
 
 - ✅ Personalized diet plan based on:
   - Age
@@ -20,7 +20,7 @@ Built using **HTML, CSS, and JavaScript**, with a premium UI and real-world logi
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack:
 
 - **HTML5** – Semantic structure
 - **CSS3** – Flexbox layout, responsive design
